@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.container div {
+    cursor: pointer;
+}
+
+.shop-container {
+    position: fixed;
+    right: -300px; /* or the width of the container */
+    top: 0;
+    width: 800px; /* Adjust as needed */
+    height: 50%;
+    background-color: white; /* Or any desired color */
+    transition: right 0.5s; /* Adjust timing as needed */
+}
+
+.container-visible {
+    right: 0;
+}
+
